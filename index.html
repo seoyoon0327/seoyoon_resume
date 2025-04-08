@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리쥬메 실습</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <style>
+        body {
+            background-color: rgb(235, 234, 234);
+            margin-top: 60px;
+        }
+        #hoon {
+            width: 960px;
+            margin: 0 auto;
+        }
+        header {text-align: center;}
+        header h1 {
+            font-size: 48px;
+            font-weight: bold;
+            /* 그림자효과 */
+            text-shadow: 0 0 6px #000;
+            color: rgb(194, 1, 1);
+            border: 1px solid #b1b1b1;
+            padding: 0.7rem;
+        }
+        header p {
+            font-size: 12px;
+            color: rgb(210,0,0);
+        }
+        header h2 {
+            color: #888;
+            margin-bottom: 2rem;
+        }
+
+        main h2 {
+            font-size: 18px;
+            color: rgb(210,0,0);
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        main hr {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #b1b1b1;
+        }
+        .certifications {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .certification {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+        }
+        .category {
+            font-weight: bold;
+            width: 110px;
+        }
+        main article, section {
+            margin-bottom: 48px;
+        }
+
+        .img {
+            display: flex;
+        }
+        
+        .abil, .hobby {
+            justify-content: space-between;
+        }
+
+        footer {
+            text-align: center;
+            color: rgb(210, 0, 0);
+        }
+        .name {
+            font-weight: bold;
+        }
+
+        main, footer {
+            font-family: "Noto Sans", sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="hoon">
+        <header>
+            <h1>이젠컴</h1>
+            <p>EzenC</p>
+            <h2>"지금 아니면 어디에도 없을 이젠 컴"</h2>
+            <img src="./images/resume.png" alt="프로필 사진">
+        </header>
+
+        <main>
+            <article class="info">
+                <h2>상세정보</h2>
+                <hr>
+                <div class="certifications">
+                    <div class="certification">
+                        <span class="category">이름</span> 
+                        <div class="certification-name">홍서윤</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">생일</span> 
+                        <div class="certification-name">2000-01-01</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">핸드폰</span> 
+                        <div class="certification-name">010 1234 5678</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">이메일</span> 
+                        <div class="certification-name">KOREA@naver.com</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">블로그</span> 
+                        <div class="certification-name">KOREA.blog.me</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">주소</span> 
+                        <div class="certification-name">서울시 노원구</div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="qual">
+                <h2>자격정보</h2>
+                <hr>
+                <div class="certifications">
+                    <div class="certification">
+                        <span class="category">DESIGN</span> 
+                        <div class="certification-name">GTQ포토샵 2급</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">O.A</span> 
+                        <div class="certification-name">ITQ 엑셀 A</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">O.A</span> 
+                        <div class="certification-name">ITQ 엑셀 A</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">O.A</span> 
+                        <div class="certification-name">ITQ 엑셀 A</div>
+                    </div>
+                    <div class="certification">
+                        <span class="category">WEB</span> 
+                        <div class="certification-name">웹디자인 기능사</div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="aca">
+                <h2>학력사항</h2>
+                <hr>
+                <div class="certifications">
+                    <div class="certification"><span class="category">2010 ~ 2014</span> 
+                        <div class="certification-name">한국대학교 컴퓨터공학과 졸업</div>
+                    </div>
+                    <div class="certification"><span class="category">2016 ~ 2017</span> 
+                        <div class="certification-name">NCS UXNI 디지털디자인 과정 수료</div>
+                    </div>
+                </div>
+            </article>
+
+            <section class="abil">
+                <h2>능력치</h2>
+                <hr>
+                <div class="img">
+                    <p><img src="./images/ps_ability.png" alt=""></p>
+                    <p><img src="./images/ai_ability.png" alt=""></p>
+                    <p><img src="./images/id_ability.png" alt=""></p>
+                    <p><img src="./images/pr_ability.png" alt=""></p>
+                </div>
+            </section>
+
+            <section class="hobby">
+                <h2>취미활동</h2>
+                <hr>
+                <div class="img">
+                    <p><img src="./images/hobby_01.png" alt=""></p>
+                    <p><img src="./images/hobby_02.png" alt=""></p>
+                    <p><img src="./images/hobby_03.png" alt=""></p>
+                    <p><img src="./images/hobby_04.png" alt=""></p>
+                    <p><img src="./images/hobby_05.png" alt=""></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy;Copyright.All Rights Reserved.,<span class="name">MCSSAM</span>
+        </footer>
+    </div>
+</body>
+</html>

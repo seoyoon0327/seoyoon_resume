@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(235, 234, 234);
+    margin-top: 60px;
+}
+#hoon {
+    width: 960px;
+    margin: 0 auto;
+}
+header {text-align: center;}
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    /* 그림자효과 */
+    text-shadow: 0 0 6px #000;
+    color: rgb(194, 1, 1);
+    border: 1px solid #b1b1b1;
+    padding: 0.7rem;
+}
+header p {
+    font-size: 12px;
+    color: rgb(210,0,0);
+}
+header h2 {
+    color: #888;
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    font-size: 18px;
+    color: rgb(210,0,0);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+main hr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #b1b1b1;
+}
+.certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.certification {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.category {
+    font-weight: bold;
+    width: 110px;
+}
+main article, section {
+    margin-bottom: 48px;
+}
+
+.img {
+    display: flex;
+}
+
+.abil, .hobby {
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    color: rgb(210, 0, 0);
+}
+.name {
+    font-weight: bold;
+}
+
+main, footer {
+    font-family: "Noto Sans", sans-serif;
+}

@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $('.btn1').click(function(){
+        $('section').stop().show();
+    });
+    $('.btn2').click(function(){
+        $('section').stop().hide();
+    });
+    $('.btn3').click(function(){
+        $('.qna1').stop().show();
+    });
+    $('.btn4').click(function(){
+        $('.qna1').stop().hide();
+    });
+    $('.btn5').click(function(){
+        $('.qna2').stop().show();
+    });
+    $('.btn6').click(function(){
+        $('.qna2').stop().hide();
+    });
+});

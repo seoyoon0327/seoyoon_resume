@@ -1,0 +1,84 @@
+@charset "utf-8";
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 10px;
+}
+#wrap{
+    max-width: 960px;
+    margin: 0 auto;
+   border: 1px solid darkgray;
+}
+input {
+    width: 80px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+input:hover{
+    color: #fff;
+}
+header{
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    border-bottom: 1px solid darkgray;
+}
+h1{
+    font-size: 24px;
+    
+}
+.btn1{
+    position: absolute;
+    right: 100px;
+}
+.btn2{
+    position: absolute;
+    right: 10px;
+}
+article{
+    padding: 20px;
+}
+article p{
+    color: gray;
+}
+#qna1{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+.btn3{
+    margin-left: 10px;
+}
+.btn4{
+    margin-left: 10px;
+}
+
+#qna2{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+.btn5{
+    margin-left: 10px;
+}
+.btn6{
+    margin-left: 10px;
+}
+section{
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ccc;
+    display: none;    
+}
+
+section a{
+    color: orange;
+    text-decoration-line: underline;
+}
+footer{
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
